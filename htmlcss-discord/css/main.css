@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Header*/
+header {
+  background-color: blue;
+  width: 100vw;
+  height: 50px;
+}
+
+.container-header {
+  margin: 0 200px;
+  height: 50px;
+  background-color: aquamarine;
+}
+.container-header div,
+nav {
+  display: inline-block;
+}
+
+/*Hero*/
+.hero {
+  background-color: red; /*bg image*/
+}
+.hero p {
+  color: white;
+  text-align: center;
+}
