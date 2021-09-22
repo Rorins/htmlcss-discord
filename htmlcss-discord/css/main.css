@@ -19,6 +19,7 @@ header {
 .container-header div,
 nav {
   display: inline-block;
+  border: solid 1px;
 }
 
 /*Hero*/
@@ -27,5 +28,9 @@ nav {
 }
 .hero p {
   color: white;
+  text-align: center;
+}
+
+.button-box {
   text-align: center;
 }
