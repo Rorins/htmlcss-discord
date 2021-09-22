@@ -2,11 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font: sans-serif;
 }
 
 /*Header*/
 header {
-  background-color: blue;
+  background-color: #255ee9;
   width: 100vw;
   height: 50px;
 }
@@ -17,20 +18,36 @@ header {
   background-color: aquamarine;
 }
 .container-header div,
-nav {
+nav,
+.column-2 li {
   display: inline-block;
   border: solid 1px;
 }
 
+.column-1 {
+  width: 20%;
+}
+
+.column-2 {
+  width: 30%;
+}
 /*Hero*/
 .hero {
-  background-color: red; /*bg image*/
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  height: 500px;
 }
-.hero p {
+.hero h1 {
   color: white;
   text-align: center;
 }
 
-.button-box {
+.text-box {
+  padding-top: 100px;
+  width: 40%;
+  margin: auto;
   text-align: center;
+}
+.text-box p {
+  margin-top: 40px;
 }
